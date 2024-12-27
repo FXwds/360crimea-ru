@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'upgrademodx',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'a35e45a4d89856ffd458cde0b2ad6575',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '45d1059caa488ce22f6f8c7f5c71385f',
+  'native_key' => 'ugm_interval',
+  'object' => '{"key":"ugm_interval","value":"1 day","xtype":"textfield","namespace":"upgrademodx","area":"Widget","editedon":null,"name":"Interval","description":"Interval between checks -- Examples: 1 week, 3 days, 6 hours; default: 1 day"}',
+);

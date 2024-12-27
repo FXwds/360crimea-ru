@@ -1,0 +1,267 @@
+<?php return array (
+  'unique_key' => 'category',
+  'preserve_keys' => false,
+  'update_object' => true,
+  'related_objects' => 
+  array (
+    'Chunks' => 
+    array (
+      '1dbfa99eb8b4d3cc4c39b21da57fc3fd' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => false,
+        'unique_key' => 'name',
+        'class' => 'modChunk',
+        'object' => '{"id":0,"source":1,"property_preprocess":0,"name":"tpl.login.form","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"<div id=\\"container\\">\\r\\n\\t<div id=\\"modx-login-logo\\">\\r\\n\\t\\t<!--[if gte IE 9]><!--><img src=\\"\\/manager\\/templates\\/default\\/images\\/modx-logo-color.svg\\" alt=\\"MODX CMS\\/CMF\\"><!--<![endif]-->\\r\\n\\t\\t<!--[if lt IE 9]><img alt=\\"MODX CMS\\/CMF\\" src=\\"\\/manager\\/templates\\/default\\/images\\/modx-logo-color.png\\" \\/><![endif]-->\\r\\n\\t<\\/div>\\r\\n\\r\\n\\t<div class=\\"modx-form\\" id=\\"modx-login-panel\\">\\r\\n\\t\\t<div class=\\"panel-title\\">\\r\\n\\t\\t\\t<h2>[[++site_name]]<\\/h2>\\r\\n\\t\\t<\\/div>\\r\\n\\t\\t<div id=\\"errormsg\\">[[+errormsg]]<\\/div>\\r\\n\\t\\t<div class=\\"panel-body\\">\\r\\n\\t\\t\\t<form method=\\"post\\" action=\\"\\" id=\\"manager-login-form\\">\\r\\n\\t\\t\\t\\t<div class=\\"login-form-item\\">\\r\\n\\t\\t\\t\\t\\t<div class=\\"login-form-element\\">\\r\\n\\t\\t\\t\\t\\t\\t<input type=\\"text\\" placeholder=\\"[[%admintools_username_email]]\\" class=\\"form-text\\" name=\\"userdata\\" id=\\"userdata\\" autocomplete=\\"on\\">\\r\\n\\t\\t\\t\\t\\t<\\/div>\\r\\n\\t\\t\\t\\t<\\/div>\\r\\n\\t\\t\\t\\t<div class=\\"form-action\\">\\r\\n\\t\\t\\t\\t\\t<button id=\\"send-email-btn\\" value=\\"1\\" type=\\"button\\" class=\\"primary-button login-form-btn\\">[[%admintools_send_authorization_link]]<\\/button>\\r\\n\\t\\t\\t\\t<\\/div>\\r\\n\\t\\t\\t<\\/form>\\r\\n\\t\\t<\\/div>\\r\\n\\t<\\/div>\\r\\n<\\/div>","locked":0,"properties":null,"static":0,"static_file":"core\\/components\\/admintools\\/elements\\/chunks\\/chunk.login.form.tpl","content":"<div id=\\"container\\">\\r\\n\\t<div id=\\"modx-login-logo\\">\\r\\n\\t\\t<!--[if gte IE 9]><!--><img src=\\"\\/manager\\/templates\\/default\\/images\\/modx-logo-color.svg\\" alt=\\"MODX CMS\\/CMF\\"><!--<![endif]-->\\r\\n\\t\\t<!--[if lt IE 9]><img alt=\\"MODX CMS\\/CMF\\" src=\\"\\/manager\\/templates\\/default\\/images\\/modx-logo-color.png\\" \\/><![endif]-->\\r\\n\\t<\\/div>\\r\\n\\r\\n\\t<div class=\\"modx-form\\" id=\\"modx-login-panel\\">\\r\\n\\t\\t<div class=\\"panel-title\\">\\r\\n\\t\\t\\t<h2>[[++site_name]]<\\/h2>\\r\\n\\t\\t<\\/div>\\r\\n\\t\\t<div id=\\"errormsg\\">[[+errormsg]]<\\/div>\\r\\n\\t\\t<div class=\\"panel-body\\">\\r\\n\\t\\t\\t<form method=\\"post\\" action=\\"\\" id=\\"manager-login-form\\">\\r\\n\\t\\t\\t\\t<div class=\\"login-form-item\\">\\r\\n\\t\\t\\t\\t\\t<div class=\\"login-form-element\\">\\r\\n\\t\\t\\t\\t\\t\\t<input type=\\"text\\" placeholder=\\"[[%admintools_username_email]]\\" class=\\"form-text\\" name=\\"userdata\\" id=\\"userdata\\" autocomplete=\\"on\\">\\r\\n\\t\\t\\t\\t\\t<\\/div>\\r\\n\\t\\t\\t\\t<\\/div>\\r\\n\\t\\t\\t\\t<div class=\\"form-action\\">\\r\\n\\t\\t\\t\\t\\t<button id=\\"send-email-btn\\" value=\\"1\\" type=\\"button\\" class=\\"primary-button login-form-btn\\">[[%admintools_send_authorization_link]]<\\/button>\\r\\n\\t\\t\\t\\t<\\/div>\\r\\n\\t\\t\\t<\\/form>\\r\\n\\t\\t<\\/div>\\r\\n\\t<\\/div>\\r\\n<\\/div>"}',
+        'guid' => '4e5644f40d4f6ec85bc28333f24e00ba',
+        'native_key' => 0,
+        'signature' => '47ccc10d213fdc4abf4260ed4df51a6d',
+      ),
+    ),
+    'Snippets' => 
+    array (
+      'f5b8594384e9d4ee56d04cbe764bf133' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modSnippet',
+        'object' => '{"id":0,"source":1,"property_preprocess":0,"name":"adminLogin","description":"","editor_type":0,"category":0,"cache_type":0,"snippet":"$path = $modx->getOption(\'admintools_core_path\', null, $modx->getOption(\'core_path\') . \'components\\/admintools\\/\').\'model\\/admintools\\/\';\\r\\n\\/** @var AdminTools $AdminTools *\\/\\r\\n$AdminTools = $modx->getService(\'admintools\',\'AdminTools\',$path, $scriptProperties);\\r\\nif (isset($_SERVER[\'HTTP_X_REQUESTED_WITH\']) && $_SERVER[\'HTTP_X_REQUESTED_WITH\'] == \'XMLHttpRequest\') {\\r\\n    $get = $modx->sanitize($_GET, $modx->sanitizePatterns);\\r\\n    $get = array_map(\'trim\',$get);\\r\\n    $success = true;\\r\\n    $message = $modx->lexicon(\'admintools_link_is_sent\');\\r\\n    if (empty($get[\'action\']) || $get[\'action\'] != \'login\') {\\r\\n        $message = \'Access is denied\';\\r\\n        $success = false;\\r\\n    } elseif (empty($get[\'userdata\'])) {\\r\\n        $message =  $modx->lexicon(\'admintools_enter_username_or_email\');\\r\\n        $success = false;\\r\\n    }\\r\\n    if ($success) {\\r\\n        if ($msg = $AdminTools->sendLoginLink($get)){\\r\\n            $success = false;\\r\\n            $message = $msg;\\r\\n        };\\r\\n    }\\r\\n    $response = array(\'success\'=>$success, \'message\'=>$message);\\r\\n    exit($modx->toJSON($response));\\r\\n} else {\\r\\n    if ($modx->user->isAuthenticated(\'mgr\')) {\\r\\n        $url = $modx->getOption(\'manager_url\', null, MODX_MANAGER_URL);\\r\\n        $url = $modx->getOption(\'url_scheme\', null, MODX_URL_SCHEME) . $modx->getOption(\'http_host\', null, MODX_HTTP_HOST) . rtrim($url, \'\\/\');\\r\\n        $modx->sendRedirect($url);\\r\\n    }\\r\\n    $errormsg = \'\';\\r\\n    if (isset($_GET[\'a\']) && isset($_GET[\'hash\']) && isset($_GET[\'id\'])) {\\r\\n        $get = $modx->sanitize($_GET, $modx->sanitizePatterns);\\r\\n        $data = $AdminTools->getLoginState($get[\'id\']);\\r\\n        if (!empty($data) && $get[\'hash\'] == $data[\'hash\'] && !empty($data[\'uid\'])) {\\r\\n            $key = md5($_SERVER[\'REMOTE_ADDR\'] . \'\\/\' . $_SERVER[\'HTTP_USER_AGENT\'] . $data[\'uid\']);\\r\\n            if ($key == $get[\'id\']) {\\r\\n                $errormsg = $AdminTools->loginUser($data[\'uid\']);\\r\\n            }\\r\\n        }\\r\\n    }\\r\\n    \\/** @var array $scriptProperties *\\/\\r\\n    $assetsUrl = $AdminTools->getOption(\'assetsUrl\');\\r\\n    $modx->regClientCss($assetsUrl . \'css\\/mgr\\/login.css\');\\r\\n    $modx->regClientScript($assetsUrl . \'js\\/mgr\\/login.js\');\\r\\n    return $modx->getChunk($tpl,array(\'errormsg\'=>$errormsg));\\r\\n}","locked":0,"properties":"a:1:{s:3:\\"tpl\\";a:7:{s:4:\\"name\\";s:3:\\"tpl\\";s:4:\\"desc\\";s:19:\\"admintools_prop_tpl\\";s:4:\\"type\\";s:9:\\"textfield\\";s:7:\\"options\\";a:0:{}s:5:\\"value\\";s:14:\\"tpl.login.form\\";s:7:\\"lexicon\\";s:21:\\"admintools:properties\\";s:4:\\"area\\";s:0:\\"\\";}}","moduleguid":"","static":0,"static_file":"core\\/components\\/admintools\\/elements\\/snippets\\/snippet.adminlogin.php","content":"$path = $modx->getOption(\'admintools_core_path\', null, $modx->getOption(\'core_path\') . \'components\\/admintools\\/\').\'model\\/admintools\\/\';\\r\\n\\/** @var AdminTools $AdminTools *\\/\\r\\n$AdminTools = $modx->getService(\'admintools\',\'AdminTools\',$path, $scriptProperties);\\r\\nif (isset($_SERVER[\'HTTP_X_REQUESTED_WITH\']) && $_SERVER[\'HTTP_X_REQUESTED_WITH\'] == \'XMLHttpRequest\') {\\r\\n    $get = $modx->sanitize($_GET, $modx->sanitizePatterns);\\r\\n    $get = array_map(\'trim\',$get);\\r\\n    $success = true;\\r\\n    $message = $modx->lexicon(\'admintools_link_is_sent\');\\r\\n    if (empty($get[\'action\']) || $get[\'action\'] != \'login\') {\\r\\n        $message = \'Access is denied\';\\r\\n        $success = false;\\r\\n    } elseif (empty($get[\'userdata\'])) {\\r\\n        $message =  $modx->lexicon(\'admintools_enter_username_or_email\');\\r\\n        $success = false;\\r\\n    }\\r\\n    if ($success) {\\r\\n        if ($msg = $AdminTools->sendLoginLink($get)){\\r\\n            $success = false;\\r\\n            $message = $msg;\\r\\n        };\\r\\n    }\\r\\n    $response = array(\'success\'=>$success, \'message\'=>$message);\\r\\n    exit($modx->toJSON($response));\\r\\n} else {\\r\\n    if ($modx->user->isAuthenticated(\'mgr\')) {\\r\\n        $url = $modx->getOption(\'manager_url\', null, MODX_MANAGER_URL);\\r\\n        $url = $modx->getOption(\'url_scheme\', null, MODX_URL_SCHEME) . $modx->getOption(\'http_host\', null, MODX_HTTP_HOST) . rtrim($url, \'\\/\');\\r\\n        $modx->sendRedirect($url);\\r\\n    }\\r\\n    $errormsg = \'\';\\r\\n    if (isset($_GET[\'a\']) && isset($_GET[\'hash\']) && isset($_GET[\'id\'])) {\\r\\n        $get = $modx->sanitize($_GET, $modx->sanitizePatterns);\\r\\n        $data = $AdminTools->getLoginState($get[\'id\']);\\r\\n        if (!empty($data) && $get[\'hash\'] == $data[\'hash\'] && !empty($data[\'uid\'])) {\\r\\n            $key = md5($_SERVER[\'REMOTE_ADDR\'] . \'\\/\' . $_SERVER[\'HTTP_USER_AGENT\'] . $data[\'uid\']);\\r\\n            if ($key == $get[\'id\']) {\\r\\n                $errormsg = $AdminTools->loginUser($data[\'uid\']);\\r\\n            }\\r\\n        }\\r\\n    }\\r\\n    \\/** @var array $scriptProperties *\\/\\r\\n    $assetsUrl = $AdminTools->getOption(\'assetsUrl\');\\r\\n    $modx->regClientCss($assetsUrl . \'css\\/mgr\\/login.css\');\\r\\n    $modx->regClientScript($assetsUrl . \'js\\/mgr\\/login.js\');\\r\\n    return $modx->getChunk($tpl,array(\'errormsg\'=>$errormsg));\\r\\n}"}',
+        'guid' => '7aff88d8289f5ead5fbf7b1e3a1e4263',
+        'native_key' => 0,
+        'signature' => '39d16533daea7e1ca2b9c677f9647f70',
+      ),
+    ),
+    'Plugins' => 
+    array (
+      '5d4cf3993b94970406925b542c0d6a1e' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'class' => 'modPlugin',
+        'object' => '{"id":null,"source":1,"property_preprocess":0,"name":"AdminTools","description":"","editor_type":0,"category":0,"cache_type":0,"plugincode":"\\/** @var array $scriptProperties *\\/\\n$path = $modx->getOption(\'admintools_core_path\', null, $modx->getOption(\'core_path\') . \'components\\/admintools\\/\').\'model\\/admintools\\/\';\\n\\/** @var AdminTools $AdminTools *\\/\\n$AdminTools = $modx->getService(\'admintools\',\'AdminTools\',$path);\\n$elementType = null;\\nif ($AdminTools instanceof AdminTools) {\\n    switch ($modx->event->name) {\\n        case \'OnManagerPageBeforeRender\':\\n            if ($modx->user->id) $AdminTools->initialize();\\n            break;\\n        case \'OnDocFormSave\':\\n            if ($modx->getOption(\'admintools_clear_only_resource_cache\',null,false)) {\\n                if ($modx->event->params[\'mode\'] != \'upd\') {\\n                    return;\\n                }\\n                if ($resource->get(\'syncsite\')) {\\n                    $AdminTools->clearResourceCache($resource);\\n                }\\n                if (!empty($_POST[\'createCache\'])) {\\n                    $AdminTools->createResourceCache($resource->uri);\\n                }\\n            }\\n            break;\\n        case \'OnManagerPageInit\':\\n            if (!$modx->user->isAuthenticated(\'mgr\') && $modx->getOption(\'admintools_email_authorization\', null, false)) {\\n                $id = (int) $modx->getOption(\'admintools_loginform_resource\');\\n                if (!empty($id) && $modx->getCount(\'modResource\', array(\'id\'=>$id, \'published\'=>1, \'deleted\'=>0))) {\\n                    $url = $modx->makeUrl($id,\'\',\'\',\'full\');\\n                    $modx->setOption(\'manager_login_url_alternate\', $url);\\n                }\\n            }\\n            break;\\n        case \'OnManagerAuthentication\':\\n            if ($modx->getOption(\'admintools_user_can_login\', null, false)) {\\n                $modx->setOption(\'admintools_user_can_login\', false);\\n                $modx->event->output(true);\\n            }\\n            break;\\n        case \'OnLoadWebDocument\':\\n            if ($modx->user->isAuthenticated($modx->context->get(\'key\')) && (!$modx->user->active || $modx->user->Profile->blocked)) {\\n                $modx->runProcessor(\'security\\/logout\');\\n            }\\n            if ($modx->getOption(\'admintools_alternative_permissions\', null, false) && !$AdminTools->hasPermissions()){\\n                $modx->sendUnauthorizedPage();\\n            }\\n            break;\\n        case \'OnTempFormPrerender\':\\n            if ($modx->getOption(\'admintools_template_resource_relationship\', null, true)) {\\n                $modx->controller->addLastJavascript($AdminTools->getOption(\'jsUrl\') . \'mgr\\/templates.js\');\\n            }\\n            break;\\n        case \'OnDocFormPrerender\':\\n            $_html = array();\\n            if ($modx->getOption(\'admintools_template_resource_relationship\', null, true)) {\\n                $_html[\'tpl_res_relationship\'] = \'\\n            var tmpl = Ext.getCmp(\\"modx-resource-template\\");\\n            if (tmpl.getValue()) tmpl.label.update(_(\\"resource_template\\") + \\"&nbsp;&nbsp;<a href=\\\\\\"?a=element\\/template\\/update&id=\\" + tmpl.getValue() + \\"\\\\\\"><i class=\\\\\\"icon icon-external-link\\\\\\"><\\/i><\\/a>\\");\';\\n            }\\n            if ($modx->getOption(\'admintools_clear_only_resource_cache\', null, true) && $resource instanceof modResource) {\\n                $_html[\'create_resource_cache\'] = \'\\n            var cb = Ext.create({\\n                xtype: \\"xcheckbox\\",\\n                boxLabel: _(\\"admintools_create_resource_cache\\"),\\n                description: _(\\"admintools_create_resource_cache_help\\"),\\n                hideLabel: true,\\n                name: \\"createCache\\",\\n                id: \\"createCache\\",\\n                checked: \'. intval($modx->getOption(\'admintools_create_resource_cache\', null, false)) .\'\\n            });\\n            if (Ext.getCmp(\\"modx-page-settings-right-box-right\\")) {\\n                Ext.getCmp(\\"modx-page-settings-right-box-right\\").insert(2,cb);\\n                Ext.getCmp(\\"modx-page-settings-right-box-left\\").add(Ext.getCmp(\\"modx-resource-uri-override\\"));\\n                Ext.getCmp(\\"modx-panel-resource\\").on(\\"success\\", function(o){\\n                    if (o.result.object.createCache != 0) {\\n                        cb.setValue(true);\\n                    }\\n                });\\n            }\';\\n            }\\n            $output = \'\';\\n            if (!empty($_html)) {\\n            $output .= \'\\n    Ext.onReady(function() {\\n        setTimeout(function(){\' . implode(\\"\\\\n\\", $_html) . \'\\n        }, 200);\\n    });\';\\n            }\\n            if ($modx->getOption(\'admintools_alternative_permissions\', null, true) && $modx->hasPermission(\'access_permissions\')) {\\n                $modx->controller->addLastJavascript($AdminTools->getOption(\'jsUrl\') . \'mgr\\/permissions.js\');\\n                $output .= \'\\n    Ext.ComponentMgr.onAvailable(\\"modx-resource-tabs\\", function() {\\n\\t\\tthis.on(\\"beforerender\\", function() {\\n\\t\\t\\tthis.add({\\n\\t\\t\\t\\ttitle: _(\\"admintools_permissions\\"),\\n\\t\\t\\t\\tborder: false,\\n\\t\\t\\t\\titems: [{\\n\\t\\t\\t\\t\\tlayout: \\"anchor\\",\\n\\t\\t\\t\\t\\tborder: false,\\n\\t\\t\\t\\t\\titems: [{\\n\\t\\t\\t\\t\\t\\thtml: _(\\"admintools_permissions_desc\\"),\\n\\t\\t\\t\\t\\t\\tborder: false,\\n\\t\\t\\t\\t\\t\\tbodyCssClass: \\"panel-desc\\"\\n\\t\\t\\t\\t\\t}, {\\n\\t\\t\\t\\t\\t\\txtype: \\"admintools-grid-permissions\\",\\n\\t\\t\\t\\t\\t\\tanchor: \\"100%\\",\\n\\t\\t\\t\\t\\t\\tcls: \\"main-wrapper\\",\\n\\t\\t\\t\\t\\t\\tresource: \' . $id . \'\\n\\t\\t\\t\\t\\t}]\\n\\t\\t\\t\\t}]\\n\\t\\t\\t});\\n\\t\\t});\\n\\t});\\n\';\\n            }\\n            if (!empty($output)) $modx->controller->addHtml(\'<script type=\\"text\\/javascript\\">\' . $output . \'<\\/script>\');\\n            break;\\n        case \'OnMODXInit\':\\n            if ($modx->context->get(\'key\') !== \'mgr\') {\\n                if ( $modx->getOption(\'admintools_only_current_context_user\', null, false)\\n                     && $modx->user->isAuthenticated(\'mgr\')\\n                     && !$modx->user->isAuthenticated($modx->context->get(\'key\')) ) {\\n                        $modx->user = $modx->newObject(\'modUser\');\\n                        $modx->user->fromArray(array(\'id\' => 0, \'username\' => $modx->getOption(\'default_username\', \'\', \'(anonymous)\', true)), \'\', true);\\n                }\\n            }\\n            break;\\n    }\\n}","locked":0,"properties":null,"disabled":0,"moduleguid":"","static":0,"static_file":"core\\/components\\/admintools\\/elements\\/plugins\\/plugin.admintools.php","content":"\\/** @var array $scriptProperties *\\/\\n$path = $modx->getOption(\'admintools_core_path\', null, $modx->getOption(\'core_path\') . \'components\\/admintools\\/\').\'model\\/admintools\\/\';\\n\\/** @var AdminTools $AdminTools *\\/\\n$AdminTools = $modx->getService(\'admintools\',\'AdminTools\',$path);\\n$elementType = null;\\nif ($AdminTools instanceof AdminTools) {\\n    switch ($modx->event->name) {\\n        case \'OnManagerPageBeforeRender\':\\n            if ($modx->user->id) $AdminTools->initialize();\\n            break;\\n        case \'OnDocFormSave\':\\n            if ($modx->getOption(\'admintools_clear_only_resource_cache\',null,false)) {\\n                if ($modx->event->params[\'mode\'] != \'upd\') {\\n                    return;\\n                }\\n                if ($resource->get(\'syncsite\')) {\\n                    $AdminTools->clearResourceCache($resource);\\n                }\\n                if (!empty($_POST[\'createCache\'])) {\\n                    $AdminTools->createResourceCache($resource->uri);\\n                }\\n            }\\n            break;\\n        case \'OnManagerPageInit\':\\n            if (!$modx->user->isAuthenticated(\'mgr\') && $modx->getOption(\'admintools_email_authorization\', null, false)) {\\n                $id = (int) $modx->getOption(\'admintools_loginform_resource\');\\n                if (!empty($id) && $modx->getCount(\'modResource\', array(\'id\'=>$id, \'published\'=>1, \'deleted\'=>0))) {\\n                    $url = $modx->makeUrl($id,\'\',\'\',\'full\');\\n                    $modx->setOption(\'manager_login_url_alternate\', $url);\\n                }\\n            }\\n            break;\\n        case \'OnManagerAuthentication\':\\n            if ($modx->getOption(\'admintools_user_can_login\', null, false)) {\\n                $modx->setOption(\'admintools_user_can_login\', false);\\n                $modx->event->output(true);\\n            }\\n            break;\\n        case \'OnLoadWebDocument\':\\n            if ($modx->user->isAuthenticated($modx->context->get(\'key\')) && (!$modx->user->active || $modx->user->Profile->blocked)) {\\n                $modx->runProcessor(\'security\\/logout\');\\n            }\\n            if ($modx->getOption(\'admintools_alternative_permissions\', null, false) && !$AdminTools->hasPermissions()){\\n                $modx->sendUnauthorizedPage();\\n            }\\n            break;\\n        case \'OnTempFormPrerender\':\\n            if ($modx->getOption(\'admintools_template_resource_relationship\', null, true)) {\\n                $modx->controller->addLastJavascript($AdminTools->getOption(\'jsUrl\') . \'mgr\\/templates.js\');\\n            }\\n            break;\\n        case \'OnDocFormPrerender\':\\n            $_html = array();\\n            if ($modx->getOption(\'admintools_template_resource_relationship\', null, true)) {\\n                $_html[\'tpl_res_relationship\'] = \'\\n            var tmpl = Ext.getCmp(\\"modx-resource-template\\");\\n            if (tmpl.getValue()) tmpl.label.update(_(\\"resource_template\\") + \\"&nbsp;&nbsp;<a href=\\\\\\"?a=element\\/template\\/update&id=\\" + tmpl.getValue() + \\"\\\\\\"><i class=\\\\\\"icon icon-external-link\\\\\\"><\\/i><\\/a>\\");\';\\n            }\\n            if ($modx->getOption(\'admintools_clear_only_resource_cache\', null, true) && $resource instanceof modResource) {\\n                $_html[\'create_resource_cache\'] = \'\\n            var cb = Ext.create({\\n                xtype: \\"xcheckbox\\",\\n                boxLabel: _(\\"admintools_create_resource_cache\\"),\\n                description: _(\\"admintools_create_resource_cache_help\\"),\\n                hideLabel: true,\\n                name: \\"createCache\\",\\n                id: \\"createCache\\",\\n                checked: \'. intval($modx->getOption(\'admintools_create_resource_cache\', null, false)) .\'\\n            });\\n            if (Ext.getCmp(\\"modx-page-settings-right-box-right\\")) {\\n                Ext.getCmp(\\"modx-page-settings-right-box-right\\").insert(2,cb);\\n                Ext.getCmp(\\"modx-page-settings-right-box-left\\").add(Ext.getCmp(\\"modx-resource-uri-override\\"));\\n                Ext.getCmp(\\"modx-panel-resource\\").on(\\"success\\", function(o){\\n                    if (o.result.object.createCache != 0) {\\n                        cb.setValue(true);\\n                    }\\n                });\\n            }\';\\n            }\\n            $output = \'\';\\n            if (!empty($_html)) {\\n            $output .= \'\\n    Ext.onReady(function() {\\n        setTimeout(function(){\' . implode(\\"\\\\n\\", $_html) . \'\\n        }, 200);\\n    });\';\\n            }\\n            if ($modx->getOption(\'admintools_alternative_permissions\', null, true) && $modx->hasPermission(\'access_permissions\')) {\\n                $modx->controller->addLastJavascript($AdminTools->getOption(\'jsUrl\') . \'mgr\\/permissions.js\');\\n                $output .= \'\\n    Ext.ComponentMgr.onAvailable(\\"modx-resource-tabs\\", function() {\\n\\t\\tthis.on(\\"beforerender\\", function() {\\n\\t\\t\\tthis.add({\\n\\t\\t\\t\\ttitle: _(\\"admintools_permissions\\"),\\n\\t\\t\\t\\tborder: false,\\n\\t\\t\\t\\titems: [{\\n\\t\\t\\t\\t\\tlayout: \\"anchor\\",\\n\\t\\t\\t\\t\\tborder: false,\\n\\t\\t\\t\\t\\titems: [{\\n\\t\\t\\t\\t\\t\\thtml: _(\\"admintools_permissions_desc\\"),\\n\\t\\t\\t\\t\\t\\tborder: false,\\n\\t\\t\\t\\t\\t\\tbodyCssClass: \\"panel-desc\\"\\n\\t\\t\\t\\t\\t}, {\\n\\t\\t\\t\\t\\t\\txtype: \\"admintools-grid-permissions\\",\\n\\t\\t\\t\\t\\t\\tanchor: \\"100%\\",\\n\\t\\t\\t\\t\\t\\tcls: \\"main-wrapper\\",\\n\\t\\t\\t\\t\\t\\tresource: \' . $id . \'\\n\\t\\t\\t\\t\\t}]\\n\\t\\t\\t\\t}]\\n\\t\\t\\t});\\n\\t\\t});\\n\\t});\\n\';\\n            }\\n            if (!empty($output)) $modx->controller->addHtml(\'<script type=\\"text\\/javascript\\">\' . $output . \'<\\/script>\');\\n            break;\\n        case \'OnMODXInit\':\\n            if ($modx->context->get(\'key\') !== \'mgr\') {\\n                if ( $modx->getOption(\'admintools_only_current_context_user\', null, false)\\n                     && $modx->user->isAuthenticated(\'mgr\')\\n                     && !$modx->user->isAuthenticated($modx->context->get(\'key\')) ) {\\n                        $modx->user = $modx->newObject(\'modUser\');\\n                        $modx->user->fromArray(array(\'id\' => 0, \'username\' => $modx->getOption(\'default_username\', \'\', \'(anonymous)\', true)), \'\', true);\\n                }\\n            }\\n            break;\\n    }\\n}"}',
+        'guid' => '20c5a7626bf5ad802d92247e8b68d92a',
+        'native_key' => NULL,
+        'signature' => 'a57aaf14e3f9eb16a06eb0555bced5b6',
+        'related_objects' => 
+        array (
+          'PluginEvents' => 
+          array (
+            'a8a3dc975121bf9550bcfd27c0effc9e' => 
+            array (
+              'preserve_keys' => true,
+              'update_object' => true,
+              'unique_key' => 
+              array (
+                0 => 'pluginid',
+                1 => 'event',
+              ),
+              'class' => 'modPluginEvent',
+              'object' => '{"pluginid":0,"event":"OnManagerPageBeforeRender","priority":0,"propertyset":0}',
+              'guid' => 'a6869406df04a1dbca1803bdc1d8569e',
+              'native_key' => 
+              array (
+                0 => 0,
+                1 => 'OnManagerPageBeforeRender',
+              ),
+              'signature' => 'b792cff73d7cbf390c76831411b0a39a',
+            ),
+            'abcb9001dc695326633ef658d5b50d4b' => 
+            array (
+              'preserve_keys' => true,
+              'update_object' => true,
+              'unique_key' => 
+              array (
+                0 => 'pluginid',
+                1 => 'event',
+              ),
+              'class' => 'modPluginEvent',
+              'object' => '{"pluginid":0,"event":"OnDocFormSave","priority":0,"propertyset":0}',
+              'guid' => '109631ece609b26a7713ee584070b3ed',
+              'native_key' => 
+              array (
+                0 => 0,
+                1 => 'OnDocFormSave',
+              ),
+              'signature' => 'd6017628f7eeb2caf230c101ac058ece',
+            ),
+            'bfa2c883d79efc3cbbe71324aebec10d' => 
+            array (
+              'preserve_keys' => true,
+              'update_object' => true,
+              'unique_key' => 
+              array (
+                0 => 'pluginid',
+                1 => 'event',
+              ),
+              'class' => 'modPluginEvent',
+              'object' => '{"pluginid":0,"event":"OnManagerPageInit","priority":0,"propertyset":0}',
+              'guid' => '76e2bbd3e4ae829e68c5a10fa7845cc5',
+              'native_key' => 
+              array (
+                0 => 0,
+                1 => 'OnManagerPageInit',
+              ),
+              'signature' => '243c6e8157e90ba9c7cc396832c06a25',
+            ),
+            '9fa064ba3d247401894bb83ce3998859' => 
+            array (
+              'preserve_keys' => true,
+              'update_object' => true,
+              'unique_key' => 
+              array (
+                0 => 'pluginid',
+                1 => 'event',
+              ),
+              'class' => 'modPluginEvent',
+              'object' => '{"pluginid":0,"event":"OnManagerAuthentication","priority":0,"propertyset":0}',
+              'guid' => '063b7b97ba5edb0d88008f122bf1bf93',
+              'native_key' => 
+              array (
+                0 => 0,
+                1 => 'OnManagerAuthentication',
+              ),
+              'signature' => '4e95024572fc5e081e91440bb7e5cf50',
+            ),
+            '116ac48a117df5314321bd97817b2e94' => 
+            array (
+              'preserve_keys' => true,
+              'update_object' => true,
+              'unique_key' => 
+              array (
+                0 => 'pluginid',
+                1 => 'event',
+              ),
+              'class' => 'modPluginEvent',
+              'object' => '{"pluginid":0,"event":"OnTempFormPrerender","priority":0,"propertyset":0}',
+              'guid' => '1b43e8553367386fa80fd184a4e29105',
+              'native_key' => 
+              array (
+                0 => 0,
+                1 => 'OnTempFormPrerender',
+              ),
+              'signature' => '9d36461de74a62afbfec0fae70cdd716',
+            ),
+            '164093e06cd2decad6507f5f7127cc8b' => 
+            array (
+              'preserve_keys' => true,
+              'update_object' => true,
+              'unique_key' => 
+              array (
+                0 => 'pluginid',
+                1 => 'event',
+              ),
+              'class' => 'modPluginEvent',
+              'object' => '{"pluginid":0,"event":"OnDocFormPrerender","priority":0,"propertyset":0}',
+              'guid' => '1bda5adccea076c8ad3b5895281fbc3f',
+              'native_key' => 
+              array (
+                0 => 0,
+                1 => 'OnDocFormPrerender',
+              ),
+              'signature' => 'fd22c62c02e46ed256a0c50ec37b7e20',
+            ),
+            'fdfe0274f121003ff01f7f9b9c53e15d' => 
+            array (
+              'preserve_keys' => true,
+              'update_object' => true,
+              'unique_key' => 
+              array (
+                0 => 'pluginid',
+                1 => 'event',
+              ),
+              'class' => 'modPluginEvent',
+              'object' => '{"pluginid":0,"event":"OnLoadWebDocument","priority":0,"propertyset":0}',
+              'guid' => '25909b8a25f3e2902f7393695aa4e70b',
+              'native_key' => 
+              array (
+                0 => 0,
+                1 => 'OnLoadWebDocument',
+              ),
+              'signature' => '1809e81063d6389bfa63c2ca5baf401f',
+            ),
+            '94a74c6e92f0b6c0f424c96c95d13b6c' => 
+            array (
+              'preserve_keys' => true,
+              'update_object' => true,
+              'unique_key' => 
+              array (
+                0 => 'pluginid',
+                1 => 'event',
+              ),
+              'class' => 'modPluginEvent',
+              'object' => '{"pluginid":0,"event":"OnMODXInit","priority":-100,"propertyset":0}',
+              'guid' => 'e2aebd920bf53d6a958900968efa171f',
+              'native_key' => 
+              array (
+                0 => 0,
+                1 => 'OnMODXInit',
+              ),
+              'signature' => '459afb7d854def94e673cc1851fa55b0',
+            ),
+          ),
+        ),
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'Snippets' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+    'Chunks' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => false,
+      'unique_key' => 'name',
+    ),
+    'Plugins' => 
+    array (
+      'preserve_keys' => false,
+      'update_object' => true,
+      'unique_key' => 'name',
+    ),
+    'PluginEvents' => 
+    array (
+      'preserve_keys' => true,
+      'update_object' => true,
+      'unique_key' => 
+      array (
+        0 => 'pluginid',
+        1 => 'event',
+      ),
+    ),
+  ),
+  'namespace' => 'admintools',
+  'resolve' => 
+  array (
+    0 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"admintools-1.13.1-pl\\/modCategory\\/1845c71c2f544a71488f87a87a8ef1b2\\/0\\/","target":"return MODX_ASSETS_PATH . \'components\\/\';","name":"admintools"}',
+    ),
+    1 => 
+    array (
+      'type' => 'file',
+      'body' => '{"source":"admintools-1.13.1-pl\\/modCategory\\/1845c71c2f544a71488f87a87a8ef1b2\\/1\\/","target":"return MODX_CORE_PATH . \'components\\/\';","name":"admintools"}',
+    ),
+    2 => 
+    array (
+      'type' => 'php',
+      'body' => '{"source":"admintools-1.13.1-pl\\/modCategory\\/1845c71c2f544a71488f87a87a8ef1b2.resolve.tables.resolver","type":"php","name":"resolve.tables"}',
+    ),
+  ),
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '6472fdef3805136787843b1dbcaa4bb2',
+  'package' => 'modx',
+  'class' => 'modCategory',
+  'signature' => '1845c71c2f544a71488f87a87a8ef1b2',
+  'native_key' => NULL,
+  'object' => '{"id":null,"parent":0,"category":"AdminTools","rank":0}',
+);

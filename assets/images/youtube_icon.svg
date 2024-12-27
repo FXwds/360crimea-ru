@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 264.7 186.2" style="enable-background:new 0 0 264.7 186.2;" xml:space="preserve">
+<style type="text/css">
+	.st0{opacity:0.12;enable-background:new    ;}
+	.st1{fill:#FFFFFF;}
+	.st2{opacity:0.12;fill:#420000;enable-background:new    ;}
+	.st3{fill:url(#SVGID_1_);}
+</style>
+<g>
+	<path id="Triangle_1_" d="M107.2,129.2l70.2-36.4l-70.2-36.5V129.2z"/>
+	<path id="The_Sharpness_1_" class="st0" d="M107.2,56.3l61.6,41.1l8.6-4.5L107.2,56.3z"/>
+	<g id="Lozenge_1_">
+		<g>
+			<path d="M261.4,43.6c0,0-2.6-17.9-10.3-25.8c-9.9-10.4-21-10.4-26-11c-36.4-2.7-91-2.7-91-2.7H134c0,0-54.6,0-90.9,2.7
+				c-5.1,0.6-16.2,0.7-26,11C9.3,25.6,6.8,43.6,6.8,43.6s-2.7,21-2.7,42v19.7c0,21,2.6,42.1,2.6,42.1s2.6,17.9,10.3,25.8
+				c9.9,10.3,22.9,10,28.7,11.1c20.8,2,88.4,2.7,88.4,2.7s54.6-0.1,91-2.7c5.1-0.6,16.2-0.7,26-11c7.8-7.9,10.3-25.8,10.3-25.8
+				s2.6-21,2.6-42V85.6C264,64.6,261.4,43.6,261.4,43.6z M107.2,129.2v-73l70.2,36.6L107.2,129.2z"/>
+		</g>
+	</g>
+</g>
+<g>
+	<path id="Triangle" class="st1" d="M103.1,125.1l70.2-36.4l-70.2-36.5V125.1z"/>
+	<path id="The_Sharpness" class="st2" d="M103.1,52.1l61.6,41.1l8.6-4.5L103.1,52.1z"/>
+	<g id="Lozenge">
+		<g>
+			
+				<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="129.8798" y1="185.89" x2="129.8798" y2="3" gradientTransform="matrix(1 0 0 -1 0 185.89)">
+				<stop  offset="0" style="stop-color:#E52D27"/>
+				<stop  offset="1" style="stop-color:#BF171D"/>
+			</linearGradient>
+			<path class="st3" d="M257.3,39.5c0,0-2.6-17.9-10.3-25.8c-9.9-10.4-21-10.4-26-11C184.6,0,130,0,130,0h-0.1c0,0-54.6,0-90.9,2.7
+				c-5.1,0.6-16.2,0.7-26,11C5.2,21.5,2.7,39.5,2.7,39.5S0,60.5,0,81.5v19.7c0,21,2.6,42.1,2.6,42.1s2.6,17.9,10.3,25.8
+				c9.9,10.3,22.9,10,28.7,11.1c20.8,2,88.4,2.7,88.4,2.7s54.6-0.1,91-2.7c5.1-0.6,16.2-0.7,26-11c7.8-7.9,10.3-25.8,10.3-25.8
+				s2.6-21,2.6-42V81.5C259.9,60.5,257.3,39.5,257.3,39.5z M103.1,125.1V52l70.2,36.6L103.1,125.1z"/>
+		</g>
+	</g>
+</g>
+</svg>

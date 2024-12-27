@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'admintools',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '10e3075bb215a6a930e7d65f58b34a33',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '19f8104f62f3ec82427ea0e2dd2f701e',
+  'native_key' => 'admintools_lock_timeout',
+  'object' => '{"key":"admintools_lock_timeout","value":0,"xtype":"numberfield","namespace":"admintools","area":"admintools_security","editedon":null}',
+);

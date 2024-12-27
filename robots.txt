@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /manager/
+Disallow: /assets/components/
+Disallow: /core/
+Disallow: /connectors/
+Host: 360crimea.ru
+Sitemap: https://360crimea.ru/sitemap.xml

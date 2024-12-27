@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'upgrademodx',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'f8342b604ad416a37094297b6cf7ecac',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '36c3c3c2ebb101109a27d6ae76cc34d9',
+  'native_key' => 'ugm_force_pcl_zip',
+  'object' => '{"key":"ugm_force_pcl_zip","value":"0","xtype":"combo-boolean","namespace":"upgrademodx","area":"Download","editedon":null,"name":"Force PclZip","description":"Force the use of PclZip instead of ZipArchive"}',
+);

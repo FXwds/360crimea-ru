@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'admintools',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '0acb54c68ef37abedb97768c641c38f2',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '81528b69b8ca7b448e80c128c059ce6a',
+  'native_key' => 'admintools_enable_notes',
+  'object' => '{"key":"admintools_enable_notes","value":true,"xtype":"combo-boolean","namespace":"admintools","area":"admintools_main","editedon":null}',
+);

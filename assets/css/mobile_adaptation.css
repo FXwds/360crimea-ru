@@ -1,0 +1,686 @@
+#mai-khao-point {
+    left: calc(35% - 6px);
+    top: 84px;
+}
+#nai-yang-point {
+    left: calc(34% - 2px);
+    top: 124px;
+}
+#nai-thon-point {
+    left: calc(30% - 7px);
+    top: 150px;
+}
+#layan-point {
+    left: calc(33% - 7px);
+    top: 178px;
+}
+#bang-tao-point {
+    left: calc(33% - 3px);
+    top: 195px;
+}
+#surin-point {
+    left: calc(30% - 6px);
+    top: 220px;
+}
+#kamala-point {
+    left: calc(31% - 6px);
+    top: 236px;
+}
+#patong-point {
+    left: calc(34% - 5px);
+    top: 285px;
+}
+#karon-point {
+    left: calc(34% - 6px);
+    top: 331px;
+}
+#kata-point {
+    left: calc(35% - 7px);
+    top: 362px;
+}
+#nai-harn-point {
+    left: calc(36% - 7px);
+    top: 394px;
+}
+#rawai-point {
+    right: 57%;
+    top: 394px;
+}
+#chalong-point {
+    right: calc(54% - 2px);
+    top: 362px;
+}
+#panwa-point {
+    right: calc(40% - 2px);
+    top: 365px;
+}
+#phuket-town-point {
+    right: calc(47% - 2px);
+    top: 313px;
+}
+#koh-sire-point {
+    right: 34%;
+    top: 295px;
+}
+#kathu-point {
+    right: 54%;
+    top: 272px;
+}
+#koh-kaew-point {
+    right: 42%;
+    top: 244px;
+}
+#cherng-talay-point {
+    right: 57%;
+    top: 166px;
+}
+#cape-yamu-point {
+    right: 37%;
+    top: 209px;
+}
+#thalang-point {
+    right: 50%;
+    top: 153px;
+}
+#east-point {
+    right: calc(48% - 2px);
+    top: 102px;
+}
+#livechat-compact-container {
+    display: none!important;
+}
+.site-bar-btns {
+    bottom: 30px;
+}
+.radio-btns label {
+    font-size: 10px;
+}
+#about-object-btn span, #category-search-btn span, #about-btn span, #about-full-btn span, #share-btn span, #home-btn span, #video-object-btn span, #map-search-btn span, #fullScreen-btn span, #hotspots-btn span, #vr-mode-btn span, #help-btn span, #giroscope-btn span, #settings-btn span {font-size: 10px;}
+.about-content h3 {
+    font-size: 21px;
+}
+.prev-new {
+    bottom: 15px;
+}
+.next-new {
+    bottom: 15px;
+}
+.sample-info {
+    font-size: 14px;
+}
+.category-list li a:hover i {
+    transform: scale(1);
+}
+.scroll-wrapper > .scroll-content {
+    -webkit-overflow-scrolling: touch;
+    overflow-y: scroll;
+    overflow-x: hidden!important;
+}
+.show-filters {
+    font-size: 1.4rem;
+    height: 35px;
+    right: 5px;
+    line-height: 26px;
+    width: calc(50% - 13px);
+}
+.sisea-result.estate a p {
+    font-size: 10px;
+}
+.contact-object-btn span {
+    font-size: 1.1rem;
+}
+.select-list label {
+    border: 0;
+    text-transform: none;
+    font-size: 1.2rem;
+}
+.roomsFilter h4, .priceFilter h4 {
+    font-size: 1.2rem;
+}
+.category-list li a p {
+    font-size: 1.4rem;
+}
+.slide p {
+    font-size: 10px;
+}
+.price {
+    font-size: 16px;
+    font-family: MyriadProRegular;
+    font-weight: bold;
+}
+.search-logo i {
+    height: 35px;
+    width: 35px;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.search-panel-body {
+    top: 63px;
+}
+.search-input.filter-search .relative-search {
+    width: calc(100% - 232px);
+}
+.panoLocation {
+    color: white;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    font-size: 12px;
+    font-family: GothamProLight;
+    text-transform: uppercase;
+    padding: 5px 0 0 0;
+}
+.panoLocation span{
+    text-transform: none;
+    font-size: 12px;
+    margin-top: 2px;
+    display: block;
+}
+.about-content {
+    margin-bottom: 75px;
+}
+.my-carousel, .carousel-block {
+overflow: hidden;
+}
+.search-panel-header{
+	display: none!important;
+}
+.site-search-results {
+    top: 0;
+}
+.arrows-btn{
+	display: block;
+}
+.category-list li a i {
+    top: 14px;
+    left: 14px;
+    right: 14px;
+    bottom: 14px;
+}
+.category-list li a span:hover i {
+    transform: scale(1);
+}
+.category-list li a p {
+    margin: 5px 0 0;
+}
+.category-search-btn:hover:before, .map-search-btn:hover:before, .video-object-btn:hover:before {
+    background-blend-mode: difference;
+    background-color: transparent;
+}
+.info-btn:hover{
+	background-color: rgba(0,0,0,0.21);
+	color: white;
+}
+.video-object-btn:hover {
+    background-blend-mode: difference;
+    background-color: rgba(0,0,0,0.21);
+}
+.logo {
+    min-width: 70px;
+	top: 15px;
+	right: 10px;
+}
+.time {
+    font-size: 20px;
+}
+.drive_modal_close_btn, .close-modal-btn, .video-modal-close-btn, .about-object-close-btn, .inner-content-close-btn, .help-content-close-btn, .feed-back-close-btn {
+    top: auto;
+    bottom: 15px;
+    right: 15px;
+    background-size: 60%;
+    height: 35px;
+    width: 35px;
+    border: 1px solid #a1905d;
+    background-position: center;
+    background-color: rgba(0,0,0,0.5);
+}
+#myCountry {
+    font-size: 18px;
+}
+.mobile-category-search-btn {
+    display: inline-block;
+}
+.mobile-map-search-btn {
+    display: inline-block;
+}
+.category-search-btn.open{
+	display: none;
+}
+.after-border {
+    top: 50%
+}
+.before-border {
+    bottom: 50%;
+}
+.location-icon {
+    background-image: url(/assets/images/location.svg);
+    height: 20px;
+    width: 20px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+    float: left;
+    margin-top: 1px;
+}
+.relative-search {
+    width: calc(76% - 63px);
+    left: 55px;
+}
+.search-time span {
+    line-height: 21px;
+}
+.search-panel fieldset {
+    height: auto;
+    border-bottom: 0;
+    padding: 0;
+	height: 35px;
+}
+.search-time {
+    position: absolute;
+    height: 35px;
+    right: 0;
+    width: 24%;
+}
+.locationFilter .map {
+    background-size: 50%;
+}
+.mobile-time {
+    display: block;
+    font-size: 22px;
+    font-family: GothamProLight;
+    text-shadow: 1px 1px 2px black;
+}
+.mobile-date {
+    font-size: 11px!important;
+    line-height: 21px!important;
+}
+.districts label {
+    font-size: 1rem;
+    line-height: 2rem;
+	height: 21px;
+}
+.districts label span {
+    font-size: 9px;
+    line-height: 19px;
+}
+.sisea-search-form {
+    padding: 15px 0 13px;
+    height: 63px;
+}
+.search-input {
+    left: 0;
+    right: 0;
+}
+#search {
+    height: 35px;
+    width: 100%;
+    line-height: 35px;
+}
+.search-time {
+    position: absolute;
+    height: 35px;
+    right: 0;
+    width: 24%;
+}
+.search-logo {
+    height: 35px;
+	width: 35px;
+	left: 13px;
+}
+#search-btn {
+    height: 34px;
+    width: 34px;
+}
+.logoIconCloud_q-._iconDark_2a svg {
+    fill: #ffffff!important;
+}
+@media (max-width: 1366px) {
+.close-btn.open:before {
+    background-image: url(/assets/images/arrow_down_icon.png);
+}
+.close-btn:before {
+    height: 20px;
+	width: 100%;
+	background-image: url(/assets/images/arrow_up_icon.png);
+}
+.item table td {
+    display: table-cell;
+}
+.item:hover .new {
+    background-image: url(/assets/images/new_icon.png);
+    top: -3px;
+    left: -3px;
+    height: 48px;
+    width: 48px;
+}
+.my-carousel .owl-next:hover, .my-carousel .owl-prev:hover{
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+}
+.object-img {
+    -webkit-filter: grayscale(0);
+}
+.close-btn {
+    width: 26%;
+}
+.item:hover .object-img {
+    background-color: rgba(0,0,0,0.45);
+    border: 0px solid transparent;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    margin: auto;
+    left: 0px;
+	right: 0px;
+    height: 100px;
+    width: 100%;
+	transform: scale(1);
+}
+}
+@media (max-width: 768px) {
+.main-new-img {
+    width: 100%;
+    margin-bottom: 15px;
+    float: none;
+    margin-right: 0;
+}
+.new-image {
+    margin-top: 0;
+}
+.close-btn:before {
+	background-size: 15%;
+}
+.block-1{
+	width: 100%;
+}
+.block-2{
+	width: 100%;
+}
+.block-3{
+	width: 100%;
+	text-align: start;
+}
+.our-location {
+    width: 100%;
+    margin: auto;
+	padding: 0 15px;
+}
+.about-block {
+    position: relative;
+    margin: auto;
+	padding: 0 15px;
+}
+.about-body {
+    width: 100%;
+}
+#aboutTitleLong{
+	margin-bottom: 0;
+}
+.block-1 a {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: white;
+    text-decoration: underline;
+}
+.item-new h4 {
+    width: 100%;
+}
+.new-image, .item-new p {
+    width: 100%;
+    float: none;
+}
+.gallery-block {
+    width: 100%;
+}
+}
+@media (max-width: 710px){
+	#about-btn span, #about-full-btn span, #hotspots-btn span, #vr-mode-btn span {left: 0;right: 0;}
+	#fullScreen-btn span {left: -2px;right: -2px;}
+	.control-panel li, .pano-control li {
+		margin: 0 10px;
+	}
+	.greeting-box {
+		width: 90%;
+	}
+}
+@media (max-width: 710px) and (orientation: landscape) {
+	.b24-widget-button-position-bottom-left {
+		left: 10px!important;
+		bottom: 5px!important;
+	}
+	.pano-control li, .control-panel li {
+		margin: 0 5px;
+	}
+	.control-share-btns li:nth-child(2n+1) {
+		margin: 0 5px;
+	}
+}
+@media (min-width: 480px) {
+	.pano-control{
+		height: auto!important;
+		display: inline-block!important;
+	}
+}
+@media (max-width: 520px) {
+/* .object-price, .second-object-price { */
+    /* font-size: 12px; */
+/* } */
+/* .object-price span, .second-object-price span { */
+    /* font-size: 15px; */
+/* } */
+/* .second-object-price i, .object-price i { */
+    /* font-size: 11px; */
+/* } */
+/* .second-object-price { */
+    /* position: absolute; */
+    /* bottom: 12px; */
+/* } */
+.card-object-category {
+    margin: 0;
+}
+#aboutTitleLong, #aboutObjectTitle {
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+.card-area span {
+    font-size: 10px;
+}
+.object-description {
+    font-size: 16px;
+}
+.object-content {
+    font-size: 13px;
+}
+.owl-main .gallery-item:after {
+    height: 28px;
+    width: 28px;
+}
+.cookies {
+    font-size: 10px;
+}
+.control-panel li{
+	position: initial;
+	margin: 0 10px 0 0;
+}
+.control-share-btns {
+    left: 0;
+    right: 0;
+	margin: auto;
+}
+}
+@media (max-width: 479px) {
+	#settings-btn{
+		display: block!important;
+	}
+	.pano-control{
+		height: 0;
+		position: absolute;
+		bottom: 38px;
+		right: 0;
+		display: none;
+	}
+	.pano-control li {
+		display: block;
+		margin-right: 0px;
+		margin-bottom: 10px;
+		float: none;
+	}
+	.site-bar-btns {
+		width: 326px;
+	}
+	.category-search-btn, #about-object-btn {
+		bottom: 140px;
+	}
+	.day-night-btn{
+		bottom: 110px;
+	}
+	#fullScreen-btn span {
+		left: -18px;
+		right: -18px;
+	}
+	#hotspots-btn span {
+		left: -6px;
+		right: -6px;
+	}
+	#vr-mode-btn span {
+		left: -7px;
+		right: -7px;
+	}
+}
+@media (max-width: 429px) {
+	.object-img {
+		max-width: 200px;
+		margin: auto;
+	}
+	.my-carousel .owl-next {
+		right: 15px;
+	}
+	.my-carousel .owl-prev {
+		left: 15px;
+	}
+	.close-btn:before {
+		background-size: 30%;
+	}
+	.roomsFilter label {
+		height: 28px;
+		width: 28px;
+	}
+	.priceFilter p {
+		margin-bottom: 0;
+		font-size: 14px;
+		text-shadow: 1px 1px 2px black;
+	}
+}
+@media (max-width: 390px) {
+.feed-back-btn {
+    font-size: 9px;
+}
+.view-map-btn, .direct-map-btn{
+	font-size: 12px;
+}
+}
+@media (max-width: 360px) {
+.absolute {
+    position: initial;
+}
+.object-content h4, .object-content .h4, .object-content span.h4 {
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+}
+.sisea-result.estate.search .object-price, .sisea-result.estate.search .second-object-price {
+    font-size: 12px;
+}
+.sisea-result.estate.search .object-price span, .sisea-result.estate.search .second-object-price span {
+    font-size: 16px;
+}
+.object-price text, .second-object-price text {
+    font-weight: normal;
+    font-size: 10px;
+    color: white;
+}
+.sisea-result.estate.search .second-object-price {
+    bottom: 12px;
+}
+}
+@media (max-width: 355px) {
+	.feed-back-btn {
+		font-size: 10px;
+	}
+}
+@media (max-width: 350px) {
+.card-object-category {
+    font-size: 12px;
+    line-height: 14px;
+}
+.card-object-location {
+	font-size: 13px;
+	line-height: 14px;
+}
+.category-control-share-btns {
+    bottom: 50px;
+    left: 0;
+    right: 0;
+	margin: auto;
+}
+}
+@media (max-width: 335px) {
+	.feed-back-btn {
+		font-size: 9px;
+		padding: 0 8px;
+	}
+	#search {
+		font-size: 12px;
+	}
+	.contact-object-btn span {
+		font-size: 0.9rem;
+	}
+}
+@media (max-width: 330px) {
+	.control-panel li {
+		display: inline-block;
+		margin-right: 5px;
+	}
+	.pano-control li {
+		margin-bottom: 5px;
+	}
+	.site-bar-btns {
+		width: 296px;
+	}
+	.control-share-btns li:nth-child(2n+1) {
+		margin-right: 5px;
+	}
+	.select-active {
+    font-size: 9px;
+	}
+	.radio-btns label {
+		font-size: 9px;
+	}
+	.select-list a {
+		font-size: 9px;
+	}
+	.feed-back-btn {
+		font-size: 8px;
+		padding: 0 8px;
+	}
+.sisea-result.estate.search .object-price, .sisea-result.estate.search .second-object-price {
+    font-size: 11px;
+}
+.sisea-result.estate.search .object-price span, .sisea-result.estate.search .second-object-price span {
+    font-size: 15px;
+}
+.card-object-location {
+    margin: 3px 0 0 0;
+}
+.card-object-category {
+    font-size: 10px;
+    line-height: 12px;
+}
+}

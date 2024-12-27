@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'admintools',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'a4a19530ca5258a9cc4e4eb3fda53bbb',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'd00d169eddb0175dd06eeaa29d243c7d',
+  'native_key' => 'admintools_check_elements_permissions',
+  'object' => '{"key":"admintools_check_elements_permissions","value":true,"xtype":"combo-boolean","namespace":"admintools","area":"admintools_permissions","editedon":null}',
+);

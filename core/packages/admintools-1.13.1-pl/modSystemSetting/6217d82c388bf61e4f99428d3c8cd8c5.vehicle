@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'admintools',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '510201082dd8df6a29482b43fa85a30f',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '6217d82c388bf61e4f99428d3c8cd8c5',
+  'native_key' => 'admintools_authorization_ttl',
+  'object' => '{"key":"admintools_authorization_ttl","value":"600","xtype":"numberfield","namespace":"admintools","area":"admintools_authorization","editedon":null}',
+);

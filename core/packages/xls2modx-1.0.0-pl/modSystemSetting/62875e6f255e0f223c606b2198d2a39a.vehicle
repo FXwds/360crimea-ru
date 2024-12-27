@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => true,
+  'namespace' => 'xls2modx',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '126acccc8bf1d039069bd602675321f0',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '62875e6f255e0f223c606b2198d2a39a',
+  'native_key' => 'xls2modx.version',
+  'object' => '{"key":"xls2modx.version","value":"1.0.0","xtype":"textfield","namespace":"xls2modx","area":"xls2modx:default","editedon":null}',
+);

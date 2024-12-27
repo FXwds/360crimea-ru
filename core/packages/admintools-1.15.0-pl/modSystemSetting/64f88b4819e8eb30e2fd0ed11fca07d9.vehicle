@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'admintools',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'a5f9a563ade2ec0293e5c2dd38f2868b',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '64f88b4819e8eb30e2fd0ed11fca07d9',
+  'native_key' => 'admintools_favorites_icon',
+  'object' => '{"key":"admintools_favorites_icon","value":"","xtype":"textfield","namespace":"admintools","area":"admintools_main","editedon":null}',
+);

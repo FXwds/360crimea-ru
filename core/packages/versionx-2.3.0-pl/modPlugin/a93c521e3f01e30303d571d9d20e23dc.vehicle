@@ -1,0 +1,263 @@
+<?php return array (
+  'unique_key' => 'name',
+  'preserve_keys' => false,
+  'update_object' => true,
+  'related_objects' => 
+  array (
+    'PluginEvents' => 
+    array (
+      '08387e2f359ab197e38c26a423a864f2' => 
+      array (
+        'preserve_keys' => true,
+        'update_object' => false,
+        'unique_key' => 
+        array (
+          0 => 'pluginid',
+          1 => 'event',
+        ),
+        'class' => 'modPluginEvent',
+        'object' => '{"pluginid":0,"event":"OnDocFormSave","priority":0,"propertyset":0}',
+        'guid' => '3f8e7de8a4b3cb7fc39b64e309fe9bd1',
+        'native_key' => 
+        array (
+          0 => 0,
+          1 => 'OnDocFormSave',
+        ),
+        'signature' => '4170ef0bf6d98523bfed6e7673b11d87',
+      ),
+      '33e07a8673ea8df3b112a9d57897e1ae' => 
+      array (
+        'preserve_keys' => true,
+        'update_object' => false,
+        'unique_key' => 
+        array (
+          0 => 'pluginid',
+          1 => 'event',
+        ),
+        'class' => 'modPluginEvent',
+        'object' => '{"pluginid":0,"event":"OnTempFormSave","priority":0,"propertyset":0}',
+        'guid' => '34d71db615bb2c2c56084c806ca8c85c',
+        'native_key' => 
+        array (
+          0 => 0,
+          1 => 'OnTempFormSave',
+        ),
+        'signature' => '9f086065f478c519135db1bfa2dec369',
+      ),
+      'aa01a6eac30488a7ab6c002ec0de2d76' => 
+      array (
+        'preserve_keys' => true,
+        'update_object' => false,
+        'unique_key' => 
+        array (
+          0 => 'pluginid',
+          1 => 'event',
+        ),
+        'class' => 'modPluginEvent',
+        'object' => '{"pluginid":0,"event":"OnTVFormSave","priority":0,"propertyset":0}',
+        'guid' => '90f36973b54a24dfd8d944ab6abdf489',
+        'native_key' => 
+        array (
+          0 => 0,
+          1 => 'OnTVFormSave',
+        ),
+        'signature' => 'c13f97935f90b92e7d2d8a4b162b5fc0',
+      ),
+      '79ef730f3e9f1bb677e76221ea4c008c' => 
+      array (
+        'preserve_keys' => true,
+        'update_object' => false,
+        'unique_key' => 
+        array (
+          0 => 'pluginid',
+          1 => 'event',
+        ),
+        'class' => 'modPluginEvent',
+        'object' => '{"pluginid":0,"event":"OnChunkFormSave","priority":0,"propertyset":0}',
+        'guid' => '0cf6c22173665e20de0a4dfcd90e0c5f',
+        'native_key' => 
+        array (
+          0 => 0,
+          1 => 'OnChunkFormSave',
+        ),
+        'signature' => 'dd40a64a0d77ae4d37448495a3243956',
+      ),
+      'fd0052e7b0671b272a2a196baa27ee86' => 
+      array (
+        'preserve_keys' => true,
+        'update_object' => false,
+        'unique_key' => 
+        array (
+          0 => 'pluginid',
+          1 => 'event',
+        ),
+        'class' => 'modPluginEvent',
+        'object' => '{"pluginid":0,"event":"OnSnipFormSave","priority":0,"propertyset":0}',
+        'guid' => '680628061fb1c99205d7f62e163d7719',
+        'native_key' => 
+        array (
+          0 => 0,
+          1 => 'OnSnipFormSave',
+        ),
+        'signature' => '7de32d361d0d5e5a121a919d141ff96c',
+      ),
+      '0d6fd1b111b2d60f51ba37924e4d4428' => 
+      array (
+        'preserve_keys' => true,
+        'update_object' => false,
+        'unique_key' => 
+        array (
+          0 => 'pluginid',
+          1 => 'event',
+        ),
+        'class' => 'modPluginEvent',
+        'object' => '{"pluginid":0,"event":"OnPluginFormSave","priority":0,"propertyset":0}',
+        'guid' => '24d67ec7dcaa09b5013f3c34bf800bd1',
+        'native_key' => 
+        array (
+          0 => 0,
+          1 => 'OnPluginFormSave',
+        ),
+        'signature' => 'a504e8923d231df36b938a5f497addaf',
+      ),
+      '2e1efa4fd2a407764a28532c07f5c152' => 
+      array (
+        'preserve_keys' => true,
+        'update_object' => false,
+        'unique_key' => 
+        array (
+          0 => 'pluginid',
+          1 => 'event',
+        ),
+        'class' => 'modPluginEvent',
+        'object' => '{"pluginid":0,"event":"OnDocFormPrerender","priority":0,"propertyset":0}',
+        'guid' => 'ca6500289c83e5ccc8de7cb145795dd3',
+        'native_key' => 
+        array (
+          0 => 0,
+          1 => 'OnDocFormPrerender',
+        ),
+        'signature' => '39a9ff1e9f6f29a21db72cddfddc24ac',
+      ),
+      'a0d511c3660f06a88b30a2097306ad63' => 
+      array (
+        'preserve_keys' => true,
+        'update_object' => false,
+        'unique_key' => 
+        array (
+          0 => 'pluginid',
+          1 => 'event',
+        ),
+        'class' => 'modPluginEvent',
+        'object' => '{"pluginid":0,"event":"OnTempFormPrerender","priority":0,"propertyset":0}',
+        'guid' => 'ab71d6b1184d60fa260794b84a53e8bd',
+        'native_key' => 
+        array (
+          0 => 0,
+          1 => 'OnTempFormPrerender',
+        ),
+        'signature' => '3cba425d7ec41b2f315b4d4bceb091ea',
+      ),
+      '4017408d510a3cf2b6db55e6aa65daac' => 
+      array (
+        'preserve_keys' => true,
+        'update_object' => false,
+        'unique_key' => 
+        array (
+          0 => 'pluginid',
+          1 => 'event',
+        ),
+        'class' => 'modPluginEvent',
+        'object' => '{"pluginid":0,"event":"OnTVFormPrerender","priority":0,"propertyset":0}',
+        'guid' => 'ef6176cafee3352dbbbce6661f5b21dc',
+        'native_key' => 
+        array (
+          0 => 0,
+          1 => 'OnTVFormPrerender',
+        ),
+        'signature' => 'ccd7c4632c4958d0653bead9e930eead',
+      ),
+      '51157c318027556fcf6957893f383c06' => 
+      array (
+        'preserve_keys' => true,
+        'update_object' => false,
+        'unique_key' => 
+        array (
+          0 => 'pluginid',
+          1 => 'event',
+        ),
+        'class' => 'modPluginEvent',
+        'object' => '{"pluginid":0,"event":"OnChunkFormPrerender","priority":0,"propertyset":0}',
+        'guid' => '8fa3ea6641aad84aa2039d12478f9a86',
+        'native_key' => 
+        array (
+          0 => 0,
+          1 => 'OnChunkFormPrerender',
+        ),
+        'signature' => '1aaa3d0cc59f3ff94c44df3ee25f1192',
+      ),
+      '9cf164b5c0b2db3d5a8720ee430a8638' => 
+      array (
+        'preserve_keys' => true,
+        'update_object' => false,
+        'unique_key' => 
+        array (
+          0 => 'pluginid',
+          1 => 'event',
+        ),
+        'class' => 'modPluginEvent',
+        'object' => '{"pluginid":0,"event":"OnSnipFormPrerender","priority":0,"propertyset":0}',
+        'guid' => 'e6a47068a055b39cff0cea591c46d324',
+        'native_key' => 
+        array (
+          0 => 0,
+          1 => 'OnSnipFormPrerender',
+        ),
+        'signature' => 'd1a20dd08a09838062f23812bd5613bc',
+      ),
+      '572305f2f5cde810aa7362b60a424e98' => 
+      array (
+        'preserve_keys' => true,
+        'update_object' => false,
+        'unique_key' => 
+        array (
+          0 => 'pluginid',
+          1 => 'event',
+        ),
+        'class' => 'modPluginEvent',
+        'object' => '{"pluginid":0,"event":"OnPluginFormPrerender","priority":0,"propertyset":0}',
+        'guid' => 'cf8369266239f19e7cb38de27bf5336e',
+        'native_key' => 
+        array (
+          0 => 0,
+          1 => 'OnPluginFormPrerender',
+        ),
+        'signature' => '4abeedf46432123b8cf563218bf5bd8b',
+      ),
+    ),
+  ),
+  'related_object_attributes' => 
+  array (
+    'PluginEvents' => 
+    array (
+      'preserve_keys' => true,
+      'update_object' => false,
+      'unique_key' => 
+      array (
+        0 => 'pluginid',
+        1 => 'event',
+      ),
+    ),
+  ),
+  'namespace' => 'versionx',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '5cd3e92ca9232003152ebeb53cd751bb',
+  'package' => 'modx',
+  'class' => 'modPlugin',
+  'signature' => 'a93c521e3f01e30303d571d9d20e23dc',
+  'native_key' => 1,
+  'object' => '{"id":1,"source":0,"property_preprocess":0,"name":"VersionX","description":"The plugin that enables VersionX of tracking your content.","editor_type":0,"category":0,"cache_type":0,"plugincode":"$corePath = $modx->getOption(\'versionx.core_path\',null,$modx->getOption(\'core_path\').\'components\\/versionx\\/\');\\nrequire_once $corePath.\'model\\/versionx.class.php\';\\n$modx->versionx = new VersionX($modx);\\n\\ninclude $corePath . \'elements\\/plugins\\/versionx.plugin.php\';\\nreturn;","locked":0,"properties":null,"disabled":0,"moduleguid":"","static":0,"static_file":"","content":"$corePath = $modx->getOption(\'versionx.core_path\',null,$modx->getOption(\'core_path\').\'components\\/versionx\\/\');\\nrequire_once $corePath.\'model\\/versionx.class.php\';\\n$modx->versionx = new VersionX($modx);\\n\\ninclude $corePath . \'elements\\/plugins\\/versionx.plugin.php\';\\nreturn;"}',
+);

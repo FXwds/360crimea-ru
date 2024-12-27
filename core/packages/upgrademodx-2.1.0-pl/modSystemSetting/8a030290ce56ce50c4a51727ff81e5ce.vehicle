@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'upgrademodx',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '1d94b39ea76f1636aa720aaa8970f24f',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '8a030290ce56ce50c4a51727ff81e5ce',
+  'native_key' => 'ugm_latest_version',
+  'object' => '{"key":"ugm_latest_version","value":"2.6.5-pl","xtype":"textfield","namespace":"upgrademodx","area":"Widget","editedon":null,"name":"Latest Version","description":"Latest version (at last check) -- set automatically"}',
+);

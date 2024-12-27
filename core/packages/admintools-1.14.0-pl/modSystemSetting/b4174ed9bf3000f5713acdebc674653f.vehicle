@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'admintools',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '7490389086c0cca954bdaf9650d02f40',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => 'b4174ed9bf3000f5713acdebc674653f',
+  'native_key' => 'admintools_unlock_code',
+  'object' => '{"key":"admintools_unlock_code","value":"","xtype":"textfield","namespace":"admintools","area":"admintools_security","editedon":null}',
+);

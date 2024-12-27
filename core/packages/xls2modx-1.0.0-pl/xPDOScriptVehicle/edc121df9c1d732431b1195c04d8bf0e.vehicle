@@ -1,0 +1,350 @@
+<?php return array (
+  'class' => 'xPDOScriptVehicle',
+  'object' => 
+  array (
+    'package_name' => 'xls2modx',
+    'namespace' => 'xls2modx',
+    'description' => 'Command Line Utility for importing an XLS sheet into MODX as resources (pages)',
+    'version' => '1.0.0',
+    'release' => 'pl',
+    'copyright' => '2015',
+    'category' => 'Xls2modx',
+    'require_docblocks' => false,
+    'build_docs' => '*',
+    'overwrite' => false,
+    'log_level' => 3,
+    'author_name' => '',
+    'author_email' => '',
+    'author_homepage' => 'http://revo2.app:8000/',
+    'core_path' => '',
+    'assets_path' => 'assets/',
+    'docs_path' => 'docs/',
+    'chunks_path' => 'elements/chunks/',
+    'plugins_path' => 'elements/plugins/',
+    'snippets_path' => 'elements/snippets/',
+    'templates_path' => 'elements/templates/',
+    'tvs_path' => 'elements/tvs/',
+    'orm_path' => 'model/',
+    'migrations_path' => 'model/migrations/',
+    'seeds_path' => 
+    array (
+      0 => 'model/seeds/',
+    ),
+    'validators_path' => 'tests/',
+    'controllers_path' => '',
+    'omit' => 
+    array (
+      0 => 'assets/',
+      1 => 'screenshots/',
+      2 => 'tests/',
+      3 => 'composer.json',
+      4 => 'composer.lock',
+      5 => 'vendor/phpoffice/phpexcel/.git',
+      6 => 'vendor/symfony/console/Symfony/Component/Console/.git',
+      7 => 'vendor/symfony/finder/Symfony/Component/Finder/.git',
+      8 => 'vendor/symfony/yaml/Symfony/Component/Yaml/.git',
+    ),
+    'limit' => 50,
+    'force_static' => false,
+    'move' => false,
+    'dry_run' => false,
+    'dir_mode' => 511,
+    'target' => 'model/seeds',
+    'abort_install_on_fail' => true,
+    'restrict_prefix' => true,
+    'packages' => 
+    array (
+    ),
+    'support' => 
+    array (
+      'email' => 'donotreply@craftsmancoding.org',
+      'issues' => 'http://github.com/craftsmancoding/xls2modx/issues',
+      'forum' => 'http://forums.modx.com/',
+      'wiki' => 'http://github.com/craftsmancoding/xls2modx/wiki',
+      'source' => 'http://github.com/craftsmancoding/xls2modx',
+    ),
+    'authors' => 
+    array (
+      0 => 
+      array (
+        'name' => 'Everett Griffiths',
+        'email' => 'everett@craftsmancoding.com',
+        'homepage' => 'http://craftsmancoding.com',
+      ),
+    ),
+    'build_attributes' => 
+    array (
+      'modCategory' => 
+      array (
+        'preserve_keys' => true,
+        'update_object' => false,
+        'unique_key' => 
+        array (
+          0 => 'category',
+        ),
+        'related_objects' => true,
+        'related_object_attributes' => 
+        array (
+          'Snippets' => 
+          array (
+            'preserve_keys' => false,
+            'update_object' => true,
+            'unique_key' => 'name',
+          ),
+          'Chunks' => 
+          array (
+            'preserve_keys' => false,
+            'update_object' => true,
+            'unique_key' => 'name',
+          ),
+          'Plugins' => 
+          array (
+            'preserve_keys' => false,
+            'update_object' => true,
+            'unique_key' => 'name',
+            'related_object_attributes' => 
+            array (
+              'PluginEvents' => 
+              array (
+                'preserve_keys' => true,
+                'update_object' => false,
+                'unique_key' => 
+                array (
+                  0 => 'pluginid',
+                  1 => 'event',
+                ),
+              ),
+            ),
+          ),
+          'modTemplate' => 
+          array (
+            'preserve_keys' => false,
+            'update_object' => true,
+            'unique_key' => 'templatename',
+          ),
+          'modTemplateVar' => 
+          array (
+            'preserve_keys' => false,
+            'update_object' => true,
+            'unique_key' => 'name',
+          ),
+        ),
+      ),
+      'modSystemSetting' => 
+      array (
+        'unique_key' => 'key',
+        'preserve_keys' => true,
+        'update_object' => false,
+      ),
+      'modMenu' => 
+      array (
+        'preserve_keys' => true,
+        'update_object' => true,
+        'unique_key' => 'text',
+        'related_objects' => true,
+        'related_object_attributes' => 
+        array (
+          'Action' => 
+          array (
+            'preserve_keys' => false,
+            'update_object' => true,
+            'unique_key' => 
+            array (
+              0 => 'namespace',
+              1 => 'controller',
+            ),
+          ),
+        ),
+      ),
+      'modSnippet' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+      ),
+      'modChunk' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+      ),
+      'modTemplate' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'templatename',
+      ),
+      'modTemplateVar' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+      ),
+      'modDocument' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 
+        array (
+          0 => 'context_key',
+          1 => 'uri',
+        ),
+      ),
+      'modResource' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 
+        array (
+          0 => 'context_key',
+          1 => 'uri',
+        ),
+      ),
+      'modPlugin' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+        'related_objects' => true,
+        'related_object_attributes' => 
+        array (
+          'PluginEvents' => 
+          array (
+            'preserve_keys' => true,
+            'update_object' => false,
+            'unique_key' => 
+            array (
+              0 => 'pluginid',
+              1 => 'event',
+            ),
+          ),
+        ),
+      ),
+      'modPluginEvent' => 
+      array (
+        'preserve_keys' => true,
+        'update_object' => false,
+        'unique_key' => 
+        array (
+          0 => 'pluginid',
+          1 => 'event',
+        ),
+      ),
+      'modAction' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 
+        array (
+          0 => 'namespace',
+          1 => 'controller',
+        ),
+        'related_objects' => true,
+        'related_object_attributes' => 
+        array (
+          'Menus' => 
+          array (
+            'preserve_keys' => true,
+            'update_object' => true,
+            'unique_key' => 'text',
+          ),
+        ),
+      ),
+      'modContentType' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+      ),
+      'modDashboard' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+      ),
+      'modUserGroup' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+      ),
+      'modUserGroupRole' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+      ),
+      'modPropertySet' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+      ),
+      'modNamespace' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'name',
+      ),
+      'modUser' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'username',
+      ),
+      'modContext' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 'key',
+      ),
+      'modDashboardWidget' => 
+      array (
+        'preserve_keys' => true,
+        'update_object' => true,
+        'unique_key' => 
+        array (
+          0 => 'name',
+          1 => 'namespace',
+        ),
+        'related_objects' => true,
+        'related_object_attributes' => 
+        array (
+          'Placements' => 
+          array (
+            'preserve_keys' => true,
+            'update_object' => true,
+            'unique_key' => 
+            array (
+              0 => 'dashboard',
+              1 => 'widget',
+            ),
+          ),
+        ),
+      ),
+      'modDashboardWidgetPlacement' => 
+      array (
+        'preserve_keys' => false,
+        'update_object' => true,
+        'unique_key' => 
+        array (
+          0 => 'dashboard',
+          1 => 'widget',
+        ),
+      ),
+    ),
+    'license' => 'GPL-2.0',
+    'homepage' => 'http://github.com/craftsmancoding/xls2modx',
+    'is_build' => true,
+    'source' => 'xls2modx-1.0.0-pl/xPDOScriptVehicle/edc121df9c1d732431b1195c04d8bf0e.resolver.script',
+  ),
+  'vehicle_class' => 'xPDOScriptVehicle',
+  'namespace' => 'xls2modx',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'guid' => 'c2e4478c9fd6e730d53661499b0fa344',
+  'package' => '',
+  'signature' => 'edc121df9c1d732431b1195c04d8bf0e',
+  'native_key' => 'c2e4478c9fd6e730d53661499b0fa344',
+);
